@@ -1,0 +1,29 @@
+.card-container {
+  width: 300px;
+  height: 400px;
+  box-shadow: 1px 2px 10px 6px rgba(139, 139, 139, 0.4);
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.top-section {
+  height: 150px;
+}
+
+.top-section h3 {
+  height: 20px;
+  overflow: hidden;
+}
+
+.botton-section {
+  height: 200px;
+}
+
+.botton-section img {
+  width: 70%;
+  object-fit: contain;
+}

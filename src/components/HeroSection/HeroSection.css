@@ -1,0 +1,108 @@
+.hero-section-container {
+  height: 60vh;
+  background-color: rgb(241, 185, 81);
+  padding-bottom: 15px;
+  position: relative;
+  box-shadow: 0px -30px 10px 0px rgba(255, 254, 254, 0.4) inset;
+}
+
+.category {
+  height: 40px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.searchbar {
+  width: 260px;
+  max-width: 260px;
+  height: 40px;
+  margin: 4px;
+  margin-right: 0px;
+  border: none;
+  padding: 5px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search .search-icon {
+  background-color: rgb(255, 146, 3);
+  color: white;
+  width: 30px;
+  height: 42px;
+  margin: 0px;
+  border: none;
+  padding: 0px 5px 0px 5px;
+}
+
+.eflyer-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-select {
+  height: 40px;
+  width: 120px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.cart-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  width: 80px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.hero-navigation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 0px 10px 0px;
+}
+
+.hero-bottom {
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-bottom h1 {
+  font-size: 35px;
+}
+
+.hero-bottom button {
+  width: 120px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 599px) {
+  .hero-bottom h1 {
+    font-size: 25px;
+    margin-top: 13px;
+  }
+}
